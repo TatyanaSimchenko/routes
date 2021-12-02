@@ -1,9 +1,45 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+header {
   text-align: center;
-  height: 100vh;
+  height: 80px;
   background: rgba(90, 115, 255);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 h1 {
+  text-align: center;
   color: #000;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+a:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.active {
+  color: rgb(245, 241, 3);
+  cursor: default;
+}
+.container {
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+  padding-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
 }
