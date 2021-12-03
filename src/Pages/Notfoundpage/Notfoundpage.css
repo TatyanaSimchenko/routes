@@ -1,0 +1,16 @@
+.notfound-contaiher {
+  height: 100vh;
+}
+
+.notfound__text {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  color: rgb(1, 1, 139);
+}
+
+.notfound__link {
+  color: rgb(1, 1, 139);
+  font-size: 50px;
+  text-transform: uppercase;
+}

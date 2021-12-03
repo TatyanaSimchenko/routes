@@ -1,7 +1,7 @@
 .postcard {
   width: 100%;
   max-width: 540px;
-  background: rgba(59, 59, 59, 0.479);
+  background: rgba(59, 59, 59, 0.945);
   border-radius: 10px;
   /* border: 1px solid #000; */
   margin-top: 30px;
@@ -11,7 +11,7 @@
 
 .post {
   position: relative;
-  top: -55px;
+  top: -60px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -45,10 +45,10 @@
   box-shadow: 0 0 5px rgb(228, 250, 27);
 }
 
-.author-info {
+/* .author-info {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .author-info__name {
   font-size: 21px;
@@ -65,10 +65,11 @@
 }
 
 .author-info__nickname {
-  color: rgb(121, 119, 119);
+  color: rgb(211, 208, 208);
   font-style: italic;
   font-size: 21px;
   margin-right: 15px;
+  line-height: 1;
   transition: text-shadow 0.5s ease;
 }
 
