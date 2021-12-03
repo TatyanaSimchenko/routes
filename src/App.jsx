@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import { Homepage } from "./Pages/Homepage/Homepage";
 import { Gallerypage } from "./Pages/Gallerypage/Gallerypage";
-import { Contactspage } from "./Pages/Contactspage/Contactspage";
+import { Aboutpage } from "./Pages/Aboutpage/Aboutpage";
 import { Blogpage } from "./Pages/Blogpage/Blogpage";
 import { Notfoundpage } from "./Pages/Notfoundpage/Notfoundpage";
 
@@ -17,7 +17,7 @@ function App() {
           <Route index element={<Homepage />} />
           <Route path="blog" element={<Blogpage />} />
           <Route path="gallery" element={<Gallerypage />} />
-          <Route path="contacts" element={<Contactspage />} />
+          <Route path="about/*" element={<Aboutpage />} />
           <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>

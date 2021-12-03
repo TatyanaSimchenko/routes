@@ -1,0 +1,44 @@
+.contact__wrapper {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.btn-back {
+  display: inline-block;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.575);
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  transition: all 0.5s ease;
+}
+.btn-back:hover {
+  color: #fff;
+  border: 1px solid rgba(43, 39, 255);
+  background-color: rgb(43, 39, 255);
+}
+.btn-back:active {
+  background-color: rgb(4, 8, 252);
+}

@@ -1,0 +1,53 @@
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+  transition: all 0.5s ease;
+}
+
+.contact:hover {
+  border-bottom: 1px solid rgb(43, 39, 255);
+}
+.contact__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 390px;
+  margin: 50px auto auto;
+}
+
+.contact__name {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.575);
+  font-weight: bold;
+  width: 260px;
+  outline: none;
+  border: transparent;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: color 0.8s ease;
+}
+.contact__name:hover {
+  color: rgb(43, 39, 255);
+}
+.contact__name:active {
+  color: rgb(4, 8, 252);
+}
+
+.contact__phone {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.contact__gender {
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.575);
+}

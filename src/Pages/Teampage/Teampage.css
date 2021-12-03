@@ -1,0 +1,21 @@
+.team {
+  height: 100vh;
+  max-width: 1200px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.team__image img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.team__text {
+  max-width: 600px;
+  font-size: 18px;
+}

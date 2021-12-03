@@ -1,0 +1,33 @@
+.about {
+  background: url(../../assets/aboutbg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about__list {
+  margin-top: 20px;
+  flex-direction: row;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about__list-link {
+  color: rgb(2, 2, 170);
+  transition: color 0.5s ease;
+}
+
+.about__list-link:not(:last-of-type) {
+  margin-right: 50px;
+}
+
+.about__list-link:hover {
+  color: rgb(245, 241, 3);
+}
